@@ -17,6 +17,10 @@ declare module "siyuan" {
 
   export class Plugin {
     displayName: string;
+    eventBus: {
+      on(event: string, callback: (event: { detail?: unknown }) => void): void;
+      off(event: string, callback: (event: { detail?: unknown }) => void): void;
+    };
     onload?(): void;
     onunload?(): void;
     loadData<T = unknown>(path: string): Promise<T | null>;

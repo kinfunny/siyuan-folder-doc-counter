@@ -28,7 +28,7 @@ await cp(path.join(root, "dist", "style.css"), path.join(releaseDir, "index.css"
 
 await writeFile(
   path.join(releaseDir, "package.json"),
-  JSON.stringify({ name: "siyuan-folder-doc-counter", version: "0.1.0" }, null, 2)
+  JSON.stringify({ name: "siyuan-folder-doc-counter", version: "0.1.1" }, null, 2)
 );
 
 const zipPath = path.join(root, "release", "package.zip");

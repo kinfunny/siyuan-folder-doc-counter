@@ -19,6 +19,12 @@
 
 已在 SiYuan 3.6.5 桌面端测试。
 
+## Changelog
+
+### 0.1.1
+
+- Fix document counts not refreshing automatically after creating, deleting, or moving documents.
+
 ## 开发
 
 ```bash

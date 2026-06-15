@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <rect width="1024" height="768" fill="#f8fafc"/>
+  <rect x="64" y="64" width="896" height="640" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="112" y="120" width="380" height="52" rx="10" fill="#111827"/>
+  <text x="140" y="154" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">文件夹文档计数</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#111827">
+    <text x="140" y="230">笔记本 A</text>
+    <text x="140" y="286">项目资料</text>
+    <text x="140" y="342">会议记录</text>
+    <text x="140" y="398">灵感收集</text>
+  </g>
+  <g fill="#6b7280" font-family="Arial, sans-serif" font-size="18">
+    <text x="792" y="230">24</text>
+    <text x="792" y="286">8</text>
+    <text x="792" y="342">3</text>
+    <text x="792" y="398">1</text>
+  </g>
+  <g transform="translate(760 210)">
+    <rect x="0" y="0" width="64" height="28" rx="14" fill="#eef2ff"/>
+    <text x="32" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4338ca">24</text>
+  </g>
+  <g transform="translate(760 266)">
+    <rect x="0" y="0" width="54" height="28" rx="14" fill="#eef2ff"/>
+    <text x="27" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4338ca">8</text>
+  </g>
+  <g transform="translate(760 322)">
+    <text x="0" y="19" font-family="Arial, sans-serif" font-size="16" fill="#4338ca">3</text>
+  </g>
+  <g transform="translate(760 378)">
+    <text x="0" y="19" font-family="Arial, sans-serif" font-size="16" fill="#4338ca">1</text>
+  </g>
+</svg>

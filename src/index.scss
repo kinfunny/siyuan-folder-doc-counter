@@ -1,0 +1,26 @@
+.fdc-count-badge {
+  flex: 0 0 auto;
+  margin-left: 6px;
+  min-width: 0;
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--b3-theme-on-surface);
+  background: transparent;
+  opacity: 0.8;
+}
+
+.fdc-count-badge[data-background="true"] {
+  min-width: 16px;
+  height: 16px;
+  padding: 0 5px;
+  border-radius: 8px;
+  line-height: 16px;
+  background: var(--b3-theme-surface-lighter);
+}

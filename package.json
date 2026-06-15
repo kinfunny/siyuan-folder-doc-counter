@@ -1,0 +1,16 @@
+{
+  "name": "siyuan-folder-doc-counter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "package": "npm run build && node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}

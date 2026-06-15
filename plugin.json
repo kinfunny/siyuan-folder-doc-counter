@@ -1,0 +1,36 @@
+{
+  "name": "siyuan-folder-doc-counter",
+  "author": "fantongkong",
+  "url": "https://github.com/fantongkong/siyuan-folder-doc-counter",
+  "version": "0.1.0",
+  "minAppVersion": "3.0.0",
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "desktop"
+  ],
+  "displayName": {
+    "default": "Folder Doc Counter",
+    "zh_CN": "文件夹文档计数"
+  },
+  "description": {
+    "default": "Show document counts next to notebooks and folders in the SiYuan document tree.",
+    "zh_CN": "在思源文档树的笔记本和文件夹旁显示文档数量。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": []
+  },
+  "keywords": [
+    "filetree",
+    "counter",
+    "document"
+  ]
+}
